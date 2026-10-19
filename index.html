@@ -2,19 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenidos a la Conversión de Temperaturas</title>
+    <title>Bienvenidos al Calculador de Factoriales</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="tarjeta">
-        <h1>Bienvenidos a la Conversión de Temperaturas</h1>
-        <img src="https://i.pinimg.com/736x/b5/7d/6e/b57d6e9a74e6832ea1ef8383ef101a92.jpg" alt="Imagen de la conversión" width="200">
-        <h2>Ingresa la temperatura en Celsius:</h2>
-        <label for="celsius">Temperatura en Celsius:</label><br>
-        <input type="number" id="celsius"><br><br>
-        <button onclick="convertirTemperaturas()">Convertir Temperaturas</button>
+        <h1>Bienvenidos al Calculador de Factoriales</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kuys-oj9F0heZ9riJM9Ym8Q3-XWMvd1hllPrvWwpIx5z-143VlK_L_rA&s=10" alt="Imagen del calculador" width="200">
+        <h2>Ingresa un número para calcular su factorial:</h2>
+        <label for="numero">Número:</label><br>
+        <input type="number" id="numero"><br><br>
+        <button onclick="calcularFactorial()">Calcular Factorial</button>
+
+        <div id="resultado" style="margin-top: 15px; font-weight: bold; text-align: center;"></div>
     </div>
-    <script src="Temperaturas.js"></script>
+    <script src="Factorial.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+la calculadora de factoriales es una aplicación web sencilla e interactiva para calcular el factorial de cualquier número entero positivo de manera rápida y con una interfaz amigable.
+
+
+* **Cálculo instantáneo:** Obtén el factorial de un número con solo presionar un botón.
+* **Interfaz limpia:** El resultado se muestra directamente en pantalla en un cuadro dedicado sin interrumpir la navegación.
+* **Validaciones incluidas:** Manejo de entradas no válidas (texto, números vacíos) y números negativos.
+
+
+* **HTML5:** Estructura de la aplicación.
+* **CSS3:** Estilos y diseño visual de la interfaz.
+* **JavaScript (ES6):** Lógica del cálculo del factorial y manipulación del DOM.
